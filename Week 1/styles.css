@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+    margin: 0;
+    overflow: hidden;
+}
+
+#toggleButton {
+    background-color: #000;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+#backgroundImage {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+/* Hide the background image when the 'hidden' class is applied */
+.hidden {
+    opacity: 0;
+}
