@@ -1,0 +1,15 @@
+body {
+    background-color: #0c0021;
+    color: rgb(255, 255, 255);
+    font-family: Arial, sans-serif;
+    font-style:oblique;
+    size: 30px;
+    text-align: center;
+    margin: 20px;
+}
+
+#story-container {
+    margin: 20px;
+    font-size: 40px;
+}
+
